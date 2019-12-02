@@ -46,15 +46,17 @@
 						<!-- Intro -->
 							<article id="About">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>DJ Masalah started spinning and quickly earned a name for himself to become a Bollywood DJ in the GTA. He became interested in music at a young age and influenced by genres including Bollywood, Pop, and Hip-Hop. DJ Masalah developed his unique style by experimenting with an acoustic landscape of hooks and innovative mixing methods</a>.</p>
+								<span class="image main"><img src="images/pic01.jpg" width="300" height="350" alt="" /></span>
+								<p><FONT SIZE="4.5">DJ Masalah started spinning and quickly earned a name for himself to become a Bollywood DJ in the GTA. He became interested in music at a young age and influenced by genres including Bollywood, Pop, and Hip-Hop. DJ Masalah developed his unique style by experimenting with an acoustic landscape of hooks and innovative mixing methods.</FONT><br/>
+								
+									
 								
 							</article>
 
 						<!-- Services -->
 							<article id="Services">
 								<h2 class="major">Services</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<span class="image main"><img src="images/pic02.jpg" width="250" height="300" alt="" /></span>
 								<p><FONT SIZE="5">Weddings:</FONT> <FONT SIZE="4">&nbsp;Engagements, Pre-Wedding Events, Sangeets and Receptions</FONT><br>
 								<p><FONT SIZE="5">Corporate:</FONT> <FONT SIZE="4">&nbsp;Holiday Parties, Work Parties, Dinner Dances and Family Days  </FONT><br>
 								<p><FONT SIZE="5">Private Events:</FONT> <FONT SIZE="4">&nbsp;Birthdays, Anniversaries, Graduations, House Parties, Backyard Barbeques</FONT><br>
@@ -62,7 +64,7 @@
 								
 							</article>
 
-						<!-- About -->
+						<!-- Music -->
 							<article id="Music">
 								<h2 class="major">Music</h2>
 								<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/388998240&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -71,29 +73,30 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form action="POST" data-netlify="true">
+								<form
+								action="https://formspree.io/djmasalah777@gmail.com" 
+								method="post"
+								>
 									<div class="fields">
 										<div class="field half">
-											
-
-
-
-
-
-
-
-
-
-
-
-
-
-											<label for="Phone">Phone</label>
-											<p><FONT SIZE="5">647-876-0271 </FONT></P>
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<p><FONT SIZE="5">info@djmasalah.com </FONT></P>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+	
 										
 									</ul>
 								</form>

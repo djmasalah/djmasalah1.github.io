@@ -265,7 +265,7 @@
   }
 
   .u-section-2 .u-btn-3 {
-    margin-left: 9px;
+    margin-left: auto;
   }
 }
 
@@ -353,9 +353,8 @@
   }
 
   .u-section-2 .u-btn-3 {
-    margin-top: 28px;
+    margin-top: 26px;
     margin-right: 190px;
-    margin-left: 0;
   }
 }
 
@@ -404,8 +403,9 @@
   }
 
   .u-section-2 .u-btn-3 {
-    margin-top: 14px;
+    margin-top: 13px;
     margin-right: auto;
+    margin-left: 94px;
   }
 }
 
